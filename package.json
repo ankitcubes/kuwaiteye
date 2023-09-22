@@ -1,0 +1,30 @@
+{
+  "name": "kuwait_eye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "async-each-series": "^1.1.0",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "fcm-node": "^1.6.1",
+    "fs": "^0.0.1-security",
+    "he": "^1.2.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
